@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="app_name">Map</string>
+
+    <!-- Activity Titles -->
+    <string formatted="false" name="storesDSItemFormActivity"></string>
+    <string formatted="false" name="naturalDSItemFormActivity"></string>
+    <string formatted="false" name="mapMain">Map</string>
+    <string formatted="false" name="storesMapActivity">Stores Map</string>
+    <string formatted="false" name="monumentsActivity">Monuments</string>
+    <string formatted="false" name="naturalparksActivity">Natural parks</string>
+    <string formatted="false" name="rankingActivity">Ranking</string>
+</resources>
+
+

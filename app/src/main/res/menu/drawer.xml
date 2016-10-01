@@ -1,0 +1,11 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+          <item android:id="@+id/entry0" android:title="Stores Map"/>
+        <item android:id="@+id/entry1" android:title="Monuments"/>
+        <item android:id="@+id/entry2" android:title="Natural parks"/>
+        <item android:id="@+id/entry3" android:title="Ranking"/>
+  </group>
+</menu>
+
+

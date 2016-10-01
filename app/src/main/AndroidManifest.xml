@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ibm.mobileappbuilder.storesreview20160225105920" >
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".MyApplication">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBTUDJrtykPI2magnM8NwWPTrp4IJZj6cw"/>
+        <activity android:name="com.ibm.mobileappbuilder.storesreview20160225105920.ui.StoresDSItemFormActivity"
+            android:label="@string/storesDSItemFormActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storesreview20160225105920.ui.NaturalDSItemFormActivity"
+            android:label="@string/naturalDSItemFormActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storesreview20160225105920.ui.MapMain"
+            android:label="@string/mapMain"
+            android:theme="@style/AppTheme.Drawer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+      </activity>
+        <activity android:name="com.ibm.mobileappbuilder.storesreview20160225105920.ui.StoresMapActivity"
+            android:label="@string/storesMapActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storesreview20160225105920.ui.StoresMapDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storesreview20160225105920.ui.MonumentsActivity"
+            android:label="@string/monumentsActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storesreview20160225105920.ui.MonumentsDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storesreview20160225105920.ui.NaturalparksActivity"
+            android:label="@string/naturalparksActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storesreview20160225105920.ui.NaturalparksDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storesreview20160225105920.ui.RankingActivity"
+            android:label="@string/rankingActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storesreview20160225105920.ui.RankingDetailActivity"
+        />
+        <activity android:name="com.worklight.wlclient.ui.UIActivity"/>
+    </application>
+
+</manifest>
